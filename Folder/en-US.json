@@ -1,0 +1,93 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "init mlh",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "howdy",
+            "how\u0027s it going",
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "RandomFactIntent",
+          "slots": [],
+          "samples": [
+            "Did you know"
+          ]
+        },
+        {
+          "name": "SpecificFactIntent",
+          "slots": [
+            {
+              "name": "FactType",
+              "type": "FactType"
+            }
+          ],
+          "samples": [
+            "I need more details about {FactType}",
+            "tell me more about {FactType}",
+            "give me a fact about {FactType}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Senegal"
+              }
+            },
+            {
+              "name": {
+                "value": "Nigeria"
+              }
+            },
+            {
+              "name": {
+                "value": "Countries"
+              }
+            },
+            {
+              "name": {
+                "value": "Ghana"
+              }
+            }
+          ],
+          "name": "FactType"
+        }
+      ]
+    }
+  },
+  "version": "9"
+}
